@@ -1,0 +1,5 @@
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\bin\Debug\Model.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\bin\Debug\Model.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\obj\Debug\Model.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\obj\Debug\Model.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

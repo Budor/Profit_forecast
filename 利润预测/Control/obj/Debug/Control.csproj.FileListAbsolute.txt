@@ -1,0 +1,9 @@
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\bin\Debug\Control.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\bin\Debug\Control.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\bin\Debug\Model.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\bin\Debug\Model.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\obj\Debug\Control.csprojResolveAssemblyReference.cache
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\obj\Debug\Control.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\obj\Debug\Control.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\bin\Debug\Common.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\bin\Debug\Common.pdb

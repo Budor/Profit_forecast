@@ -1,0 +1,16 @@
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\利润预测.exe.config
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\利润预测.exe
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\利润预测.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\obj\Debug\利润预测.csprojResolveAssemblyReference.cache
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\obj\Debug\利润预测.Properties.Resources.resources
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\obj\Debug\利润预测.csproj.GenerateResource.Cache
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\obj\Debug\利润预测.exe
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\obj\Debug\利润预测.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\obj\Debug\利润预测.Year.resources
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\Control.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\Control.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\Common.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\Common.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\Model.dll
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\bin\Debug\Model.pdb
+E:\学习文件\代码\ASP案例\解压文件\利润预测\利润预测\obj\Debug\利润预测.Begin.resources
