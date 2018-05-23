@@ -66,15 +66,29 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCompany = new System.Windows.Forms.TextBox();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel13.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel15.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
@@ -138,9 +152,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(12, 5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 21);
+            this.label2.Size = new System.Drawing.Size(124, 21);
             this.label2.TabIndex = 0;
-            this.label2.Text = "参  数  修   改";
+            this.label2.Text = "修   改   参  数  ";
             // 
             // txt5_2
             // 
@@ -368,13 +382,13 @@
             this.btnChange.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(109)))), ((int)(((byte)(224)))));
             this.btnChange.FlatAppearance.BorderSize = 0;
             this.btnChange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChange.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnChange.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
             this.btnChange.ForeColor = System.Drawing.Color.Transparent;
-            this.btnChange.Location = new System.Drawing.Point(27, 430);
+            this.btnChange.Location = new System.Drawing.Point(19, 459);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(202, 33);
+            this.btnChange.Size = new System.Drawing.Size(87, 28);
             this.btnChange.TabIndex = 158;
-            this.btnChange.Text = "修   改   参   数";
+            this.btnChange.Text = "修改参数";
             this.btnChange.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnChange.UseVisualStyleBackColor = false;
             this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
@@ -490,19 +504,20 @@
             // 
             this.panel6.Location = new System.Drawing.Point(246, 299);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 197);
+            this.panel6.Size = new System.Drawing.Size(200, 212);
             this.panel6.TabIndex = 168;
             // 
             // panel7
             // 
             this.panel7.Controls.Add(this.panel8);
-            this.panel7.Location = new System.Drawing.Point(-208, 299);
+            this.panel7.Location = new System.Drawing.Point(-221, 299);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(216, 197);
+            this.panel7.Size = new System.Drawing.Size(221, 223);
             this.panel7.TabIndex = 169;
             // 
             // panel8
             // 
+            this.panel8.Controls.Add(this.panel9);
             this.panel8.Location = new System.Drawing.Point(196, 177);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(200, 197);
@@ -510,10 +525,18 @@
             // 
             // panel9
             // 
-            this.panel9.Location = new System.Drawing.Point(-7, 469);
+            this.panel9.Controls.Add(this.panel10);
+            this.panel9.Location = new System.Drawing.Point(12, 3);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(283, 194);
             this.panel9.TabIndex = 169;
+            // 
+            // panel10
+            // 
+            this.panel10.Location = new System.Drawing.Point(6, -31);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(277, 257);
+            this.panel10.TabIndex = 169;
             // 
             // panel12
             // 
@@ -559,22 +582,114 @@
             this.label4.TabIndex = 173;
             this.label4.Text = "回 收 系 数";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(155)))), ((int)(((byte)(0)))));
+            this.label5.Font = new System.Drawing.Font("微软雅黑", 11.5F);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(8, 421);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(90, 21);
+            this.label5.TabIndex = 174;
+            this.label5.Text = "公司名称：";
+            // 
+            // txtCompany
+            // 
+            this.txtCompany.BackColor = System.Drawing.Color.White;
+            this.txtCompany.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCompany.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtCompany.Location = new System.Drawing.Point(109, 423);
+            this.txtCompany.Name = "txtCompany";
+            this.txtCompany.ReadOnly = true;
+            this.txtCompany.Size = new System.Drawing.Size(134, 19);
+            this.txtCompany.TabIndex = 175;
+            this.txtCompany.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panel13
+            // 
+            this.panel13.Controls.Add(this.panel14);
+            this.panel13.Location = new System.Drawing.Point(-267, 266);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(277, 257);
+            this.panel13.TabIndex = 170;
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.panel15);
+            this.panel14.Location = new System.Drawing.Point(264, 179);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(268, 260);
+            this.panel14.TabIndex = 169;
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.button2);
+            this.panel15.Location = new System.Drawing.Point(-10, 48);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(280, 15);
+            this.panel15.TabIndex = 169;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(184)))), ((int)(((byte)(0)))));
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(109)))), ((int)(((byte)(224)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.Transparent;
+            this.button2.Location = new System.Drawing.Point(166, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(87, 28);
+            this.button2.TabIndex = 176;
+            this.button2.Text = "修改参数";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // panel16
+            // 
+            this.panel16.Location = new System.Drawing.Point(-13, 493);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(283, 24);
+            this.panel16.TabIndex = 169;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(184)))), ((int)(((byte)(0)))));
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(109)))), ((int)(((byte)(224)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.Transparent;
+            this.button3.Location = new System.Drawing.Point(152, 459);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(87, 28);
+            this.button3.TabIndex = 176;
+            this.button3.Text = "修改密码";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // SetUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(259, 478);
+            this.ClientSize = new System.Drawing.Size(259, 514);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnChange);
+            this.Controls.Add(this.panel16);
+            this.Controls.Add(this.panel13);
+            this.Controls.Add(this.txtCompany);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel12);
-            this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.btnChange);
             this.Controls.Add(this.txt9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txt8);
@@ -614,6 +729,11 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel7.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -663,6 +783,15 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtCompany;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
 
     }
 }

@@ -15,7 +15,8 @@ namespace 利润预测
         static void Main()
         {
             //初始化字典
-            Common.ConfigDictionary.InitializationConfigList();            
+            Common.ConfigDictionary.InitializationConfigList();
+            Common.ConfigDictionary.InitializationPrivateList();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Year());

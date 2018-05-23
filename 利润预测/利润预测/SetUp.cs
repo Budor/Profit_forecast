@@ -13,17 +13,18 @@ using Control;
 
 namespace 利润预测
 {
-    public partial class SetUp:SkinMain
+    public partial class SetUp : SkinMain
     {
+        public static bool flag = false;
         public SetUp()
         {
             InitializeComponent();
         }
 
-       
+
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.txt1_1.ReadOnly==true)
+            if (this.txt1_1.ReadOnly == true)
             {
                 ConfigDictionary.InitializationConfig();
                 this.Close();
@@ -51,7 +52,7 @@ namespace 利润预测
                 myPosittion.Offset(-mPoint.X, -mPoint.Y);
                 Location = myPosittion;
             }
-        } 
+        }
         #endregion
 
         private void SetUp_Load(object sender, EventArgs e)
@@ -81,6 +82,7 @@ namespace 利润预测
             this.txt7.Text = cal.getvalue("TaxCoefficient").ToString();
             this.txt8.Text = cal.getvalue("MonthCostCoefficient").ToString();
             this.txt9.Text = cal.getvalue("YearCostCoefficient").ToString();
+            this.txtCompany.Text = cal.getPraviteValue("company").ToString();
         }
         #endregion
 
@@ -99,7 +101,7 @@ namespace 利润预测
                 }
             }
             pen.Dispose();
-        } 
+        }
         #endregion
 
         #region 限制文本框输入内容
@@ -244,7 +246,14 @@ namespace 利润预测
                                                                     if (Convert.ToDouble(this.txt9.Text) > 0 && flag == true)
                                                                     {
                                                                         ConfigDictionary.configList["YearCostCoefficient"] = Convert.ToDouble(this.txt9.Text);
-
+                                                                        if (this.txtCompany.Text != null && flag == true)
+                                                                        {
+                                                                            ConfigDictionary.privateList["company"] = this.txtCompany.Text;
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            flag = false;
+                                                                        }
                                                                     }
                                                                     else
                                                                     {
@@ -356,6 +365,7 @@ namespace 利润预测
                 this.txt7.ReadOnly = false;
                 this.txt8.ReadOnly = false;
                 this.txt9.ReadOnly = false;
+                this.txtCompany.ReadOnly = false;
             }
             else
             {
@@ -373,6 +383,7 @@ namespace 利润预测
                 this.txt7.ReadOnly = true;
                 this.txt8.ReadOnly = true;
                 this.txt9.ReadOnly = true;
+                this.txtCompany.ReadOnly = true;
             }
         }
 
@@ -380,17 +391,31 @@ namespace 利润预测
 
         private void btnChange_Click(object sender, EventArgs e)
         {
-            if (this.btnChange.Text == "修   改   参   数")
+
+
+            if (this.btnChange.Text == "修改参数")
             {
-                this.TxtBoxState(true);
-                this.btnChange.Text = "保   存   参   数";
+                Pwd pwd = new Pwd();
+                pwd.ShowDialog();
+                if (flag)
+                {
+                    this.TxtBoxState(true);
+                    this.btnChange.Text = "保存参数";
+                }
+                else
+                {
+                    this.btnChange.Text = "修改参数";
+
+                }
+
             }
             else
             {
+                flag = false;
                 if (this.ChangeDictionaries())
                 {
                     this.TxtBoxState(false);
-                    this.btnChange.Text = "修   改   参   数";
+                    this.btnChange.Text = "修改参数";
                 }
                 else
                 {
@@ -400,6 +425,20 @@ namespace 利润预测
 
 
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (this.btnChange.Text == "保存参数")
+            {
+                MessageBox.Show("请先保存参数！");
+            }
+            else
+            {
+                ChangePwd cha = new ChangePwd();
+                cha.ShowDialog();
+            }
+            
         }
     }
 }

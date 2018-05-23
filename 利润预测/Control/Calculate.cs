@@ -100,5 +100,9 @@ namespace Control
         {
             return ConfigDictionary.getValue(str);
         }
+        public string getPraviteValue(string str)
+        {
+            return ConfigDictionary.getPrivateValue(str);
+        }
     }
 }

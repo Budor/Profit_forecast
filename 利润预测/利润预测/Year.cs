@@ -17,7 +17,7 @@ namespace 利润预测
 {
     public partial class Year : SkinMain
     {
-        
+        Calculate cal = new Calculate();
         public Year()
         {
             InitializeComponent();
@@ -63,7 +63,7 @@ namespace 利润预测
             //重绘TextBox边框
             this.Paint+=Year_Paint;
 
-           
+            this.lbCompany.Text = cal.getPraviteValue("company");
         }
 
        
@@ -163,6 +163,7 @@ namespace 利润预测
             SetUp setup = new SetUp();
             setup.ShowDialog();
 
+            this.lbCompany.Text = cal.getPraviteValue("company");
             this.txtCoal.Clear();
             this.txtIncome.Clear();
             this.txtPorfit.Clear();

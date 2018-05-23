@@ -2,3 +2,7 @@ E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\bin\Release\Mod
 E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\bin\Release\Model.pdb
 E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\obj\Release\Model.dll
 E:\学习文件\代码\ASP案例\解压文件\利润预测\Model\obj\Release\Model.pdb
+E:\学习文件\Git\Profit_forecast\利润预测\Model\bin\Release\Model.dll
+E:\学习文件\Git\Profit_forecast\利润预测\Model\bin\Release\Model.pdb
+E:\学习文件\Git\Profit_forecast\利润预测\Model\obj\Release\Model.dll
+E:\学习文件\Git\Profit_forecast\利润预测\Model\obj\Release\Model.pdb

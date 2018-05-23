@@ -13,6 +13,8 @@ namespace Common
        /// </summary>
        public static Dictionary<string, double> configList = new Dictionary<string, double>();
 
+       public static Dictionary<string, string> privateList = new Dictionary<string, string>();
+
        #region 初始化字典
        /// <summary>
        /// 初始化字典
@@ -61,6 +63,14 @@ namespace Common
            configList.Add("TaxCoefficient", TaxCoefficient);
 
        }
+
+       public static void InitializationPrivateList()
+       {
+           string pwd = ConfigurationManager.AppSettings["pwd"];
+           privateList.Add("pwd", pwd);
+           string company = ConfigurationManager.AppSettings["company"];
+           privateList.Add("company", company);
+       }
        #endregion
 
 
@@ -75,13 +85,20 @@ namespace Common
            double dou;
            configList.TryGetValue(str, out dou);
            return dou;
-       } 
+       }
+
+       public static string getPrivateValue(string str)
+       {
+           string values;
+           privateList.TryGetValue(str, out values);
+           return values;
+       }
        #endregion
 
        /// <summary>
        /// 通过字典，修改配置文件的值
-       /// </summary>
-       public static void InitializationConfig()
+       /// </summary>       
+       public static   void InitializationConfig()
        {
            string str = System.Windows.Forms.Application.ExecutablePath;
            Configuration config = ConfigurationManager.OpenExeConfiguration(str);
@@ -99,6 +116,10 @@ namespace Common
            config.AppSettings.Settings["YearCostCoefficient"].Value = getValue("YearCostCoefficient").ToString();
            config.AppSettings.Settings["MonthCostCoefficient"].Value = getValue("MonthCostCoefficient").ToString();
            config.AppSettings.Settings["TaxCoefficient"].Value = getValue("TaxCoefficient").ToString();
+
+           config.AppSettings.Settings["pwd"].Value = getPrivateValue("pwd").ToString();
+           config.AppSettings.Settings["company"].Value = getPrivateValue("company").ToString();
+
            config.Save(ConfigurationSaveMode.Modified);
            ConfigurationManager.RefreshSection("appSettings");
             //System.Windows.Forms.Application.ExecutablePath

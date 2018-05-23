@@ -38,16 +38,18 @@
             this.txtPorfit = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSetUp = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.txtCoal = new System.Windows.Forms.TextBox();
-            this.btnSetUp = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lbCompany = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnYear = new System.Windows.Forms.Button();
             this.configDictionaryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.configDictionaryBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +61,7 @@
             this.btnMonth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMonth.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.btnMonth.ForeColor = System.Drawing.Color.White;
-            this.btnMonth.Location = new System.Drawing.Point(39, 126);
+            this.btnMonth.Location = new System.Drawing.Point(30, 126);
             this.btnMonth.Name = "btnMonth";
             this.btnMonth.Size = new System.Drawing.Size(120, 40);
             this.btnMonth.TabIndex = 2;
@@ -72,32 +74,32 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(155)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(33, 251);
+            this.label6.Location = new System.Drawing.Point(10, 251);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 27);
+            this.label6.Size = new System.Drawing.Size(166, 27);
             this.label6.TabIndex = 17;
-            this.label6.Text = "预测利润：";
+            this.label6.Text = "预测利润(万元)：";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(155)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(33, 201);
+            this.label5.Location = new System.Drawing.Point(10, 201);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 27);
+            this.label5.Size = new System.Drawing.Size(166, 27);
             this.label5.TabIndex = 16;
-            this.label5.Text = "营业收入：";
+            this.label5.Text = "营业收入(万元)：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(33, 67);
+            this.label2.Location = new System.Drawing.Point(10, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 31);
+            this.label2.Size = new System.Drawing.Size(150, 31);
             this.label2.TabIndex = 14;
-            this.label2.Text = "原  煤：";
+            this.label2.Text = "原煤(万吨)：";
             // 
             // txtIncome
             // 
@@ -105,10 +107,10 @@
             this.txtIncome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIncome.Font = new System.Drawing.Font("宋体", 18F);
             this.txtIncome.ForeColor = System.Drawing.Color.Black;
-            this.txtIncome.Location = new System.Drawing.Point(149, 200);
+            this.txtIncome.Location = new System.Drawing.Point(182, 200);
             this.txtIncome.MaxLength = 8;
             this.txtIncome.Name = "txtIncome";
-            this.txtIncome.Size = new System.Drawing.Size(186, 28);
+            this.txtIncome.Size = new System.Drawing.Size(167, 28);
             this.txtIncome.TabIndex = 105;
             // 
             // txtPorfit
@@ -117,10 +119,10 @@
             this.txtPorfit.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPorfit.Font = new System.Drawing.Font("宋体", 18F);
             this.txtPorfit.ForeColor = System.Drawing.Color.Black;
-            this.txtPorfit.Location = new System.Drawing.Point(149, 250);
+            this.txtPorfit.Location = new System.Drawing.Point(182, 250);
             this.txtPorfit.MaxLength = 8;
             this.txtPorfit.Name = "txtPorfit";
-            this.txtPorfit.Size = new System.Drawing.Size(186, 28);
+            this.txtPorfit.Size = new System.Drawing.Size(167, 28);
             this.txtPorfit.TabIndex = 106;
             // 
             // button1
@@ -151,6 +153,20 @@
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
+            // btnSetUp
+            // 
+            this.btnSetUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(109)))), ((int)(((byte)(224)))));
+            this.btnSetUp.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnSetUp.FlatAppearance.BorderSize = 0;
+            this.btnSetUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSetUp.Image = ((System.Drawing.Image)(resources.GetObject("btnSetUp.Image")));
+            this.btnSetUp.Location = new System.Drawing.Point(268, 0);
+            this.btnSetUp.Name = "btnSetUp";
+            this.btnSetUp.Size = new System.Drawing.Size(36, 33);
+            this.btnSetUp.TabIndex = 138;
+            this.btnSetUp.UseVisualStyleBackColor = false;
+            this.btnSetUp.Click += new System.EventHandler(this.btnSetUp_Click);
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -160,7 +176,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(150, 28);
             this.label9.TabIndex = 137;
-            this.label9.Text = "利   润   预   测";
+            this.label9.Text = "龙   山   煤   矿";
             // 
             // button2
             // 
@@ -181,33 +197,30 @@
             this.txtCoal.BackColor = System.Drawing.Color.White;
             this.txtCoal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCoal.Font = new System.Drawing.Font("宋体", 20F);
-            this.txtCoal.Location = new System.Drawing.Point(149, 67);
+            this.txtCoal.Location = new System.Drawing.Point(166, 67);
             this.txtCoal.MaxLength = 8;
             this.txtCoal.Name = "txtCoal";
-            this.txtCoal.Size = new System.Drawing.Size(186, 31);
+            this.txtCoal.Size = new System.Drawing.Size(183, 31);
             this.txtCoal.TabIndex = 104;
             this.txtCoal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCoal_KeyPress);
             // 
-            // btnSetUp
-            // 
-            this.btnSetUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(109)))), ((int)(((byte)(224)))));
-            this.btnSetUp.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
-            this.btnSetUp.FlatAppearance.BorderSize = 0;
-            this.btnSetUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSetUp.Image = ((System.Drawing.Image)(resources.GetObject("btnSetUp.Image")));
-            this.btnSetUp.Location = new System.Drawing.Point(268, 0);
-            this.btnSetUp.Name = "btnSetUp";
-            this.btnSetUp.Size = new System.Drawing.Size(36, 33);
-            this.btnSetUp.TabIndex = 138;
-            this.btnSetUp.UseVisualStyleBackColor = false;
-            this.btnSetUp.Click += new System.EventHandler(this.btnSetUp_Click);
-            // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(-15, 300);
+            this.panel2.Controls.Add(this.lbCompany);
+            this.panel2.Location = new System.Drawing.Point(-15, 281);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(403, 100);
+            this.panel2.Size = new System.Drawing.Size(403, 119);
             this.panel2.TabIndex = 111;
+            // 
+            // lbCompany
+            // 
+            this.lbCompany.AutoSize = true;
+            this.lbCompany.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.lbCompany.Location = new System.Drawing.Point(145, 9);
+            this.lbCompany.Name = "lbCompany";
+            this.lbCompany.Size = new System.Drawing.Size(113, 12);
+            this.lbCompany.TabIndex = 115;
+            this.lbCompany.Text = "安阳龙鑫煤业规划部";
             // 
             // panel3
             // 
@@ -218,7 +231,7 @@
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(-12, 32);
+            this.panel4.Location = new System.Drawing.Point(-34, 32);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(45, 322);
             this.panel4.TabIndex = 113;
@@ -231,7 +244,7 @@
             this.btnYear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnYear.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.btnYear.ForeColor = System.Drawing.Color.White;
-            this.btnYear.Location = new System.Drawing.Point(215, 126);
+            this.btnYear.Location = new System.Drawing.Point(209, 126);
             this.btnYear.Name = "btnYear";
             this.btnYear.Size = new System.Drawing.Size(120, 40);
             this.btnYear.TabIndex = 114;
@@ -272,6 +285,8 @@
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Year_Paint);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.configDictionaryBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -297,5 +312,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnYear;
+        private System.Windows.Forms.Label lbCompany;
     }
 }

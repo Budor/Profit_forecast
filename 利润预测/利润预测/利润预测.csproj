@@ -80,8 +80,20 @@
     <Compile Include="Begin.Designer.cs">
       <DependentUpon>Begin.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePwd.Designer.cs">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pwd.Designer.cs">
+      <DependentUpon>Pwd.cs</DependentUpon>
+    </Compile>
     <Compile Include="SetUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +109,9 @@
     <EmbeddedResource Include="Begin.resx">
       <DependentUpon>Begin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChangePwd.resx">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -106,6 +121,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Pwd.resx">
+      <DependentUpon>Pwd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SetUp.resx">
       <DependentUpon>SetUp.cs</DependentUpon>
     </EmbeddedResource>

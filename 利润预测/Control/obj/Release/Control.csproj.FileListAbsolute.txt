@@ -7,3 +7,12 @@ E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\bin\Release\M
 E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\obj\Release\Control.csprojResolveAssemblyReference.cache
 E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\obj\Release\Control.dll
 E:\学习文件\代码\ASP案例\解压文件\利润预测\Control\obj\Release\Control.pdb
+E:\学习文件\Git\Profit_forecast\利润预测\Control\bin\Release\Control.dll
+E:\学习文件\Git\Profit_forecast\利润预测\Control\bin\Release\Control.pdb
+E:\学习文件\Git\Profit_forecast\利润预测\Control\bin\Release\Common.dll
+E:\学习文件\Git\Profit_forecast\利润预测\Control\bin\Release\Model.dll
+E:\学习文件\Git\Profit_forecast\利润预测\Control\bin\Release\Common.pdb
+E:\学习文件\Git\Profit_forecast\利润预测\Control\bin\Release\Model.pdb
+E:\学习文件\Git\Profit_forecast\利润预测\Control\obj\Release\Control.csprojResolveAssemblyReference.cache
+E:\学习文件\Git\Profit_forecast\利润预测\Control\obj\Release\Control.dll
+E:\学习文件\Git\Profit_forecast\利润预测\Control\obj\Release\Control.pdb
