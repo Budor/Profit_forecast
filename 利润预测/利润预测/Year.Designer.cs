@@ -170,13 +170,13 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Font = new System.Drawing.Font("方正兰亭黑简体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(16, 3);
+            this.label9.Location = new System.Drawing.Point(9, 6);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(150, 28);
+            this.label9.Size = new System.Drawing.Size(199, 24);
             this.label9.TabIndex = 137;
-            this.label9.Text = "龙   山   煤   矿";
+            this.label9.Text = "安阳龙鑫煤业规划部";
             // 
             // button2
             // 
@@ -215,12 +215,13 @@
             // lbCompany
             // 
             this.lbCompany.AutoSize = true;
-            this.lbCompany.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.lbCompany.Location = new System.Drawing.Point(145, 9);
+            this.lbCompany.Font = new System.Drawing.Font("宋体", 10F);
+            this.lbCompany.ForeColor = System.Drawing.Color.DimGray;
+            this.lbCompany.Location = new System.Drawing.Point(156, 9);
             this.lbCompany.Name = "lbCompany";
-            this.lbCompany.Size = new System.Drawing.Size(113, 12);
+            this.lbCompany.Size = new System.Drawing.Size(63, 14);
             this.lbCompany.TabIndex = 115;
-            this.lbCompany.Text = "安阳龙鑫煤业规划部";
+            this.lbCompany.Text = "龙山煤矿";
             // 
             // panel3
             // 

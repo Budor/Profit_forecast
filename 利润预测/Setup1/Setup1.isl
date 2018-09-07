@@ -3750,8 +3750,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>2052</td><td>对于运行 [ProductName] 处理器不足。</td><td>0</td><td/><td>-1163467636</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>2052</td><td>对于运行 [ProductName] 内存量不足。</td><td>0</td><td/><td>-1163467636</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>2052</td><td>对于运行 [ProductName] 屏幕分辨率不足。</td><td>0</td><td/><td>-1163467636</td></row>
-		<row><td>ID_STRING1</td><td>2052</td><td>http://www.利润预测.com</td><td>0</td><td/><td>-1163499668</td></row>
-		<row><td>ID_STRING2</td><td>2052</td><td>利润预测</td><td>0</td><td/><td>-1163499668</td></row>
+		<row><td>ID_STRING1</td><td>2052</td><td>http://www.barteam.com</td><td>0</td><td/><td>1017528821</td></row>
+		<row><td>ID_STRING2</td><td>2052</td><td>barteam</td><td>0</td><td/><td>1017565749</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>-1163477588</td></row>
 		<row><td>ID_STRING3</td><td>2052</td><td>Launch |Built</td><td>0</td><td/><td>-1163477588</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>利润预测</td><td>0</td><td/><td>-1163475156</td></row>
@@ -4005,7 +4005,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{9A49E67E-154B-4FF5-93C7-0FBE0B290FE9}</td></row>
 		<row><td>ISUSSignature</td><td>{ED54D8D8-30B5-46A1-A1BC-C9079F2A75B1}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewShortcuts,viewObjects,viewRelease</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewShortcuts,viewObjects,viewRelease,viewISToday,viewLearnMore</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4380,7 +4380,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{6EA4981D-CE24-4304-9327-646971DAA821}</td><td/></row>
 		<row><td>ProductName</td><td>利润预测</td><td/></row>
-		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
+		<row><td>ProductVersion</td><td>1.20.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
