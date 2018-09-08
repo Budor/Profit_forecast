@@ -172,11 +172,11 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("方正兰亭黑简体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(9, 6);
+            this.label9.Location = new System.Drawing.Point(6, 6);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(199, 24);
+            this.label9.Size = new System.Drawing.Size(241, 24);
             this.label9.TabIndex = 137;
-            this.label9.Text = "安阳龙鑫煤业规划部";
+            this.label9.Text = "安阳鑫龙煤业企业规划部";
             // 
             // button2
             // 

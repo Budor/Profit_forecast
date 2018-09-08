@@ -7,5 +7,6 @@ E:\学习文件\代码\ASP案例\解压文件\利润预测\Common\obj\Release\Co
 E:\学习文件\Git\Profit_forecast\利润预测\Common\bin\Release\Common.dll
 E:\学习文件\Git\Profit_forecast\利润预测\Common\bin\Release\Common.pdb
 E:\学习文件\Git\Profit_forecast\利润预测\Common\bin\Release\SkinForm.dll
+E:\学习文件\Git\Profit_forecast\利润预测\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
 E:\学习文件\Git\Profit_forecast\利润预测\Common\obj\Release\Common.dll
 E:\学习文件\Git\Profit_forecast\利润预测\Common\obj\Release\Common.pdb
